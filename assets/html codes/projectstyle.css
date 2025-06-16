@@ -1,0 +1,104 @@
+.heading{
+    background-image: url('d1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #000;
+    height: 200px;
+    padding: 80px 20px;
+}
+.w{
+    font-size: x-large;
+    font-weight: 800;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    text-align: center;
+    vertical-align: middle;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.about.t{
+    flex: 1;
+}
+.about img{
+    flex: 1;
+    max-width: 50%;
+}
+.about button{
+    background-color: rgb(113, 37, 235);
+    color: aliceblue;
+    border-color:  rgb(113, 37, 235);;
+}
+#learn{
+  height: 110px;
+  background-color: rgb(224, 193, 237);
+  text-align: center;
+}
+#learn  button{
+    background-color:  rgb(162, 105, 253);;
+    font-weight: 600;
+    color: rgb(239, 232, 232);
+}
+.l{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.g{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 5px;
+   justify-content: center;
+   justify-items: stretch;
+}
+.g img{
+    width: 75%;
+    object-fit: cover;
+}
+.gal{
+    margin: 40px;
+    padding: 20px;
+}
+.text{
+    color: maroon;
+    font-family: 'Franklin Gothic Medium';
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline double;
+}
+.readmore{
+    color: maroon;
+    text-decoration: none;
+    font-weight: 600;
+}
+.blog1 img{
+    width: 700px;
+    height: 200px;
+    padding-left: 10px;
+}
+.readmore:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+.table{
+    margin: 50px;
+    font-weight: 700;
+    height: 100vh;
+}
+.foot{
+    background-color: rgb(155, 239, 217);
+    height: 50px;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.foot button{
+    background-color: darkcyan;
+    color: bisque;
+    border-color: darkcyan;
+}

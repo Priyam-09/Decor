@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <a href="assignment1.html" target="_blank">Home page</a><br />
+        <a href="about.html" target="_blank">See about</a>
+    </header>
+    <body>
+        <h2>CONTACT US</h2>
+        <h3>Share with us</h3>
+        <br />
+        <input
+      type="text"
+      name="username"
+      id="username"
+      placeholder="Name"
+      maxlength="100"
+      required
+      autocomplete="on"
+      autofocus
+      spellcheck="true"
+      pattern="[a-zA-Z0-9]+"
+    /><br /><br />
+    <input
+      type="email"
+      name="userEmail"
+      id="email"
+      placeholder="Email"
+      required
+      maxlength="50"
+      autocomplete="on"
+      autofocus
+    /><br /><br />
+    <input type="radio" name="gender" id="male" value="male" /> Male
+    <br />
+    <input type="radio" name="gender" id="female" value="female" />
+    Female<br /><br />
+    <input
+      type="date"
+      name="dob"
+      id="dob"
+      placeholder="DOB"
+      min="1970-01-01"
+      max="2025-12-31"
+      required
+    /><br /><br />
+<input
+      type="number"
+      name="phone"
+      id="phone"
+      max="12"
+      placeholder="Phone number"
+      required
+    /><br /><br />
+    <textarea
+      name="address"
+      id="address"
+      rows="6"
+      cols="50"
+      placeholder="Write your address here..."
+      maxlength="300"
+      minlength="20"
+      required
+      autofocus
+      wrap="soft"
+      spellcheck="true"
+    ></textarea>
+    <br /><br />
+        <h4>Select semester</h4>
+        <select name="Semester">
+        <optgroup label="SEM 1">
+            <option value="SELECT"> select</option>
+          <option value="CSE">CSE</option>
+          <option value="MATHS">MATHS</option>
+        </optgroup>
+        <optgroup label="SEM 2">
+          <option value="DSA">DSA</option>
+          <option value="PHYSICS">PHYSICS</option>
+        </optgroup>
+      </select>
+      <br /><br />
+        <input
+      type="checkbox"
+      name="agree"
+      id="agree"
+      value="yes"
+      required
+    />
+    Subscribe to our newsletter<br /><br />
+       
+    </body>
+</html>

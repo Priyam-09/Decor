@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="height: 100vh">
+    <h1>Tables</h1>
+    <table style="
+    width: 100%;
+    border-collapse:collapse;
+    border: 1px solid black;
+    height: 50%;
+    text-align: center;"
+    rules="all">
+    <thead>
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>CITY</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>Aria</td>
+            <td>45</td>
+            <td>Mumbai</td>
+        </tr>
+        <td>Sam</td>
+        <td>35</td>
+        <td>Paris</td>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">TOTAL</td>
+            <td>5</td>
+         </tr>
+    </tfoot>
+</table>
+<h2>JavaScript</h2>
+<button onclick="showAlert()">Inline JS example</button><br /><br />
+<script>
+    function showAlert(){
+        alert("This is a JS alert");
+    }
+</script>
+</body>
